@@ -1,2 +1,2 @@
-ls = "a sd dssdg dsg"
-print(''.join(sorted(ls)).strip())
+for i in range(8, -1, -1):
+    print(i)
