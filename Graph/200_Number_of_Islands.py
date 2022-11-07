@@ -13,8 +13,8 @@ from sys import stdin
 n, m = map(int, stdin.readline().strip().split())
 Grid = [list(map(int, stdin.readline().strip().split())) for _ in range(n)]
 move = [[-1, 0], [0, 1], [1, 0], [0, -1]]
-visited = copy.deepcopy(Grid)
 cnt = 0
+visited = copy.deepcopy(Grid)
 
 for i in range(n):
     for j in range(m):
